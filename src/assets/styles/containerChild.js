@@ -1,20 +1,21 @@
+import { secondaryColor, deleteButtonColor, taskColor } from "./colors";
 export const containerChild = {
   child: {
-    color: "#533e5c",
+    color: taskColor,
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     marginTop: "5px",
     height: "30px",
     width: "100%",
-    backgroundColor: "#3dffdb",
+    backgroundColor: secondaryColor,
   },
   button: {
     fontSize: "20px",
     flex: "1",
     marginRight: "2px",
     border: 0,
-    backgroundColor: "#df8fff",
+    backgroundColor: deleteButtonColor,
     cursor: "pointer",
   },
 };

@@ -1,4 +1,5 @@
 import { containerChild } from "./containerChild";
+import { secondaryColor } from "./colors";
 
 export const formStyle = {
   form: {
@@ -20,6 +21,6 @@ export const formStyle = {
     ...containerChild.button,
     height: "40px",
     fontSize: "30px",
-    backgroundColor: "#3dffdb",
+    backgroundColor: secondaryColor,
   },
 };

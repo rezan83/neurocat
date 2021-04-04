@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "base";
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body,
+div#root {
+  @include full-page;
+  margin: 0;
+  padding: 0;
+}

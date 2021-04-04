@@ -1,6 +1,6 @@
-# React template made with Parcel
-
-React + Redux + SASS template
+# Neurocat task made with Parcel + React
+Created using
+Parcel + React + Redux + SASS
 
 ## Setup
 ```yarn```
